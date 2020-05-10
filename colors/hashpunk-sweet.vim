@@ -63,6 +63,7 @@ call s:highlight('Character', s:Grey93, s:clear, s:none)
 call s:highlight('Number', s:Grey93, s:clear, s:none)      
 call s:highlight('Boolean', s:ComplementaryColor, s:clear, s:none)
 call s:highlight('Float', s:MainColor, s:clear, s:none)
+call s:highlight('EndOfBuffer', s:Grey19, s:clear, s:none)
 
 call s:highlight('Identifier', s:MainColor, s:clear, s:none)
 call s:highlight('Function', s:MainColor, s:clear, s:none)
@@ -103,13 +104,13 @@ call s:highlight('ColorColumn', s:MainColor, s:Grey15, s:none)
 
 " Interface highlighting
 call s:highlight('Normal', s:Grey93, s:Grey7, s:none)
-call s:highlight('Visual', s:clear, s:Grey0, s:none)
+call s:highlight('Visual', s:Grey0, s:MainColor, s:none)
 call s:highlight('Cursor', s:clear, s:Grey0, s:none)
 call s:highlight('iCursor', s:clear, s:Grey0, s:none)
-call s:highlight('LineNr', s:Grey66, s:clear, s:none)
+call s:highlight('LineNr', s:Grey42, s:clear, s:none)
 call s:highlight('NonText', s:Grey66, s:clear, s:none)
-call s:highlight('CursorLineNr', s:Grey0, s:Grey7, s:none)
-call s:highlight('VertSplit', s:Grey15, s:clear, s:none)
+call s:highlight('CursorLineNr', s:MainColor, s:clear, s:none)
+call s:highlight('VertSplit', s:MainColor, s:clear, s:none)
 
 " Pmenu
 call s:highlight('Pmenu', s:Grey93, s:Grey19, s:none)
